@@ -20,7 +20,7 @@ Zero CloudFormation. Zero YAML. Zero Terraform. Just C#.
 ```bash
 dotnet new web -n MyApi
 cd MyApi
-dotnet add reference path/to/CdkReloaded/src/CdkReloaded/CdkReloaded.csproj
+dotnet add package CdkReloaded.Net
 ```
 
 ### 2. Define a model
