@@ -1,0 +1,31 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+
+## Build
+artifacts/
+publish/
+TestResults/
+
+## CDK
+cdk.out/
+node_modules/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## AI
+.claude

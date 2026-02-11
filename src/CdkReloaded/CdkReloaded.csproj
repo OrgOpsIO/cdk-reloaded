@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CdkReloaded.Abstractions\CdkReloaded.Abstractions.csproj" />
+    <ProjectReference Include="..\CdkReloaded.Hosting\CdkReloaded.Hosting.csproj" />
+    <ProjectReference Include="..\CdkReloaded.Runtime.Local\CdkReloaded.Runtime.Local.csproj" />
+    <ProjectReference Include="..\CdkReloaded.Runtime.Lambda\CdkReloaded.Runtime.Lambda.csproj" />
+    <ProjectReference Include="..\CdkReloaded.DynamoDb\CdkReloaded.DynamoDb.csproj" />
+    <ProjectReference Include="..\CdkReloaded.Cdk\CdkReloaded.Cdk.csproj" />
+  </ItemGroup>
+
+</Project>

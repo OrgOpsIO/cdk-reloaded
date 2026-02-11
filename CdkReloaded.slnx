@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/CdkReloaded.Sample.OrderApi/CdkReloaded.Sample.OrderApi.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/CdkReloaded.Abstractions/CdkReloaded.Abstractions.csproj" />
+    <Project Path="src/CdkReloaded.Cdk/CdkReloaded.Cdk.csproj" />
+    <Project Path="src/CdkReloaded.DynamoDb/CdkReloaded.DynamoDb.csproj" />
+    <Project Path="src/CdkReloaded.Hosting/CdkReloaded.Hosting.csproj" />
+    <Project Path="src/CdkReloaded.Runtime.Lambda/CdkReloaded.Runtime.Lambda.csproj" />
+    <Project Path="src/CdkReloaded.Runtime.Local/CdkReloaded.Runtime.Local.csproj" />
+    <Project Path="src/CdkReloaded/CdkReloaded.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CdkReloaded.Abstractions.Tests/CdkReloaded.Abstractions.Tests.csproj" />
+    <Project Path="tests/CdkReloaded.DynamoDb.Tests/CdkReloaded.DynamoDb.Tests.csproj" />
+    <Project Path="tests/CdkReloaded.Hosting.Tests/CdkReloaded.Hosting.Tests.csproj" />
+    <Project Path="tests/CdkReloaded.Runtime.Local.Tests/CdkReloaded.Runtime.Local.Tests.csproj" />
+  </Folder>
+</Solution>

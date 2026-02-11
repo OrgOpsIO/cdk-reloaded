@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CdkReloaded.Abstractions\CdkReloaded.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
