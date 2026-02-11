@@ -1,5 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <PackageId>CdkReloaded.Net.Runtime.Lambda</PackageId>
+    <Description>AWS Lambda custom runtime for CdkReloaded.Net — deploys your functions as Lambda handlers.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" />
     <PackageReference Include="Amazon.Lambda.RuntimeSupport" />

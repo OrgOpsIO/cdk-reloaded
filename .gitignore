@@ -17,6 +17,7 @@ obj/
 ## Build
 artifacts/
 publish/
+nupkgs/
 TestResults/
 
 ## CDK

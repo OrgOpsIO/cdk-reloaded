@@ -1,2 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>CdkReloaded.Net.Abstractions</PackageId>
+    <Description>Core interfaces and attributes for CdkReloaded.Net — IFunction, ITable, [HttpApi], and more.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <PackageId>CdkReloaded.Net</PackageId>
+    <Description>Meta-package for CdkReloaded.Net — includes all components for building serverless .NET apps with auto-generated AWS CDK infrastructure.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\CdkReloaded.Abstractions\CdkReloaded.Abstractions.csproj" />
     <ProjectReference Include="..\CdkReloaded.Hosting\CdkReloaded.Hosting.csproj" />

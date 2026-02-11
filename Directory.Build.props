@@ -6,4 +6,14 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Authors>OrgOps</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/OrgOpsIO/cdk-reloaded</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/OrgOpsIO/cdk-reloaded</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>aws cdk lambda dynamodb serverless dotnet infrastructure-as-code</PackageTags>
+  </PropertyGroup>
 </Project>

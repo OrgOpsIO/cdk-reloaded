@@ -1,5 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <PackageId>CdkReloaded.Net.DynamoDb</PackageId>
+    <Description>DynamoDB abstraction for CdkReloaded.Net — includes InMemoryTable for local development and DynamoDbTable for AWS.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
     <PackageReference Include="AWSSDK.DynamoDBv2" />
